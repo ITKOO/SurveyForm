@@ -1,0 +1,131 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: rgba(253, 243, 243, 0.9);
+}
+
+hr
+{
+    width:6%;
+    border:1px solid #cecece;
+}
+.index
+{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/index_bg.gif");
+    background-size: 100% 100%;
+}
+.index .indexBox
+{
+    width:35%;
+    height: 40%;
+    background-color: white;
+    box-shadow: 0px 1px 8px #cecece;
+    border-radius: 2%;
+    top:28%;
+    position: relative;
+    margin-left:32%;
+}
+.index .indexBox .indexTitle
+{
+    font-family: 'Pacifico', cursive; 
+    font-weight: bold;
+    font-size:1.8em;
+    margin-left:37%;
+   
+}
+
+.index .indexBox .indexContent
+{
+    text-align: center;
+    margin-top:1%;
+}
+.indexHr
+{
+    text-align: center;
+    margin-top: 3%;
+}
+.startBtn
+{
+    background-color: #ff7885;
+    width:52%;
+    height: 13%;
+    color:white;
+    margin-top: 1%;
+    left:26%;
+    position: relative;
+    border-style: none;
+    border-radius:10px;
+}
+
+.startBtn:hover
+{
+    background-color: #3b3251;
+}
+
+.startBtn:focus
+{
+    outline: none;
+}
+
+.survey
+{
+    width:100%;
+    height: 200%;
+    
+}
+
+.survey .surveyBg
+{
+    width:100%;
+    height: 25%;
+    background-color: #ff7885;
+}
+
+.survey .surveyContent
+{
+    width: 70%;
+    height:320px;
+    bottom:15%;
+    left:15%;
+    box-shadow: 0px 1px 13px #cecece;
+    position: relative;
+    display: block;
+    background-color: white;
+    margin-bottom: 3%;
+}
+
+.survey .surveyContent .title
+{
+    font-size:3em;
+    /* font-family: 'Pacifico', cursive; */
+    text-align: center;
+    padding-top:6%;
+}
+#okBtn
+{
+    width: 13%;
+    height: 2.8%;
+    font-size: 1.2em;
+    bottom:15%;
+    right: 15%;
+    background-color: #ff7885;
+}
+
+.surveyContent .surveyForm
+{
+    padding-top:3%;
+    margin-left:5%;
+}
+
+.surveyContent .surveyForm .qTitle
+{
+    font-size:1.2em;
+    font-weight: bold;
+}
+
