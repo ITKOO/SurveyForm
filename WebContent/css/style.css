@@ -98,34 +98,142 @@ hr
     display: block;
     background-color: white;
     margin-bottom: 3%;
+    padding-left:3%;
+    padding-top:2%;
 }
 
-.survey .surveyContent .title
+.survey .surveyMain
+{
+    width: 70%;
+    height:300px;
+    bottom:15%;
+    left:15%;
+    box-shadow: 0px 1px 13px #cecece;
+    position: relative;
+    display: block;
+    background-color: white;
+    margin-bottom: 3%;
+}
+.survey .surveyMain .title
 {
     font-size:3em;
     /* font-family: 'Pacifico', cursive; */
     text-align: center;
     padding-top:6%;
 }
+
 #okBtn
 {
     width: 13%;
-    height: 2.8%;
+    height: 58px;
     font-size: 1.2em;
     bottom:15%;
     right: 15%;
     background-color: #ff7885;
 }
 
-.surveyContent .surveyForm
+#backBtn
 {
-    padding-top:3%;
-    margin-left:5%;
+	margin-left:3%;
 }
 
-.surveyContent .surveyForm .qTitle
+.survey .surveyForm
+{
+    position: relative;
+    top:-14%;
+    padding-bottom: 5%;
+}
+
+.survey .surveyForm .surveyContent .qTitle
 {
     font-size:1.2em;
     font-weight: bold;
+}
+
+.completeContent
+{
+    margin-top:5%;
+    text-align: center;
+}
+
+.survey .completeMain
+{
+    width: 70%;
+    height:380px;
+    bottom:15%;
+    left:15%;
+    box-shadow: 0px 1px 13px #cecece;
+    position: relative;
+    display: block;
+    background-color: white;
+    margin-bottom: 3%;
+}
+
+.survey .completeMain .title
+{
+    font-size:2.8em;
+    text-align: center;
+}
+
+
+.survey .resultMain
+{
+    width: 70%;
+    height:2100px;
+    bottom:15%;
+    left:15%;
+    box-shadow: 0px 1px 13px #cecece;
+    position: relative;
+    display: block;
+    background-color: white;
+    margin-bottom: 3%;
+}
+.survey .resultMain .title
+{
+    font-size:3em;
+    /* font-family: 'Pacifico', cursive; */
+    text-align: center;
+    padding-top:6%;
+}
+.survey .resultMain .rContent
+{
+	padding-left:7%;
+}
+
+.survey .resultMain .rTitle
+{
+	font-size:1.3em;
+	
+	
+}
+
+.chart
+{
+	position:relative; 
+	left:1%; 
+	width:50%;
+}
+
+.boldLetter
+{
+	font-weight:bold;
+}
+
+.showResult
+{
+	color:white;
+	margin-top:23%;
+	margin-left:46%;
+	text-decoration:underline;
+}
+
+.showResult:hover
+{
+	font-weight:bold;
+}
+
+.showResult:focus
+{
+	color:#ff7885;
 }
 

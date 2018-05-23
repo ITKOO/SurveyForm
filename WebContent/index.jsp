@@ -27,6 +27,8 @@
             <input type = "button" value = "설문조사 하러가기" class = "startBtn" onclick="location.href = 'survey.jsp'">
         </div>
         
+        <div class = "showResult" onclick="location.href = 'result.jsp'">결 과 보 러 가 기</div>
+        
     </div>
 </body>
 </html>
