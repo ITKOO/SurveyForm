@@ -9,7 +9,7 @@ This is second jsp performance, topic is **"How many times you talk with family?
 > - Second Question : How old are you?
 > - Third Question : How much do you talk to your family during the day
 
-Screenshot
+Screenshots
 ---------------------------------------
 ![default](https://user-images.githubusercontent.com/31758135/43296811-97e478a2-9188-11e8-978d-4003a16078a5.png)
 ![2](https://user-images.githubusercontent.com/31758135/43296816-9efbadea-9188-11e8-9442-37217ac93ca2.png)
